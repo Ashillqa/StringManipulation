@@ -21,6 +21,10 @@ public class Runner {
 		test.meth3("Hello my friend");
 		// printed word vertically as expected
 		
+		System.out.println();
+		// see if second word is in the first string
+		test.stringFind("Hello my friend", "Hello");
+		
 		
 }
 	

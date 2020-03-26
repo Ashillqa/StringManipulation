@@ -30,4 +30,26 @@ public class StringManipulation {
 	}
 	
 	}
+	
+	public void stringFind(String message, String word) {
+		
+		Boolean outcome = false;
+		
+		if (message.contains(word)) {
+			
+			outcome = true;
+			
+			System.out.println(outcome);
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
